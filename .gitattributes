@@ -1,0 +1,21 @@
+#% ============================================================================================================ %#
+#% DESCRIPTION                                                                                                  %#
+#%     The '.gitattributes' file is used to define file handling rules that GIT will follow.                    %#
+#%                                                                                                              %#
+#%  Version      Date            Name            Description                                                    %#
+#% ------------------------------------------------------------------------------------------------------------ %#
+#%  v1.0.3   2025-06-27   Warila, Nicholas R.    Inital Commit.                                                 %#
+#% ============================================================================================================ %#
+# Set a global default.
+*                   text=auto                   eol=lf
+
+# Define Repo File(s)
+*.md                text
+LICENSE             text
+
+# Define Git File(s)
+.gitattributes      text        -diff
+.gitignore          text        -diff
+.editorconfig       text        -diff
+.prettierignore     text        -diff
+.vscodeignore       text        -diff
